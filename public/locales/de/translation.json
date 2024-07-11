@@ -1,0 +1,10 @@
+{
+  "main": {
+    "navbar": {
+      "language": "Sprache",
+      "about": "Über mich",
+      "projects": "Projekte",
+      "contact": "Kontakt"
+    }
+  }
+}

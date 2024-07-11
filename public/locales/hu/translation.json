@@ -1,0 +1,15 @@
+{
+  "main": {
+    "navbar": {
+      "language": "Nyelv",
+      "about": "Rólam",
+      "projects": "Projektek",
+      "contact": "Elérhetőségek"
+    },
+    "home": {
+      "about": {},
+      "projects": {},
+      "contact": {}
+    }
+  }
+}
