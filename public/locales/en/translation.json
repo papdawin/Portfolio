@@ -8,6 +8,8 @@
     },
     "home": {
       "about": {
+        "title": "",
+        "body": "",
         "education": "Education"
       },
       "projects": {},
