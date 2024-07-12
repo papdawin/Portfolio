@@ -5,6 +5,16 @@
       "about": "About",
       "projects": "Projects",
       "contact": "Contact"
+    },
+    "home": {
+      "about": {
+        "education": "Education"
+      },
+      "projects": {},
+      "contact": {}
+    },
+    "footer": {
+      "copyright": "Copyright © All rights reserved"
     }
   }
 }

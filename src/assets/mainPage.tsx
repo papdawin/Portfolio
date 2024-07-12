@@ -1,18 +1,12 @@
-import React, { useState, useEffect, Suspense } from 'react';
-import {useTranslation} from 'react-i18next';
-import {
-    BrowserRouter as Router,
-    Routes,
-    Route,
-    // Redirect,
-} from 'react-router-dom';
+import React, {Suspense} from 'react';
+import {BrowserRouter as Router, Route, Routes,} from 'react-router-dom';
 // Helper-functions
-
 // Components
 import Navbar from "./skeleton/Navbar/navbar.tsx";
 import Loader from "./skeleton/loader.tsx";
 
 import Home from "./content/Home/home.tsx";
+import {Footer} from "./skeleton/Footer/footer.tsx";
 
 // const Home = React.lazy(() => import('./pages/Home'));
 // const AboutMe = React.lazy(() => import('./pages/About'));
@@ -38,7 +32,7 @@ function MainPage() {
                         {/*</Route>*/}
                     </Routes>
                 </main>
-                {/*<Footer data={allData} />*/}
+                <Footer />
         </Router>
     );
 }

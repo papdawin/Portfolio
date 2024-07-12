@@ -5,6 +5,16 @@
       "about": "Über mich",
       "projects": "Projekte",
       "contact": "Kontakt"
+    },
+    "home": {
+      "about": {
+        "education": "Ausbildung"
+      },
+      "projects": {},
+      "contact": {}
+    },
+    "footer": {
+      "copyright": "Copyright © Alle Rechte vorbehalten"
     }
   }
 }

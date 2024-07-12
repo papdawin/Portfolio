@@ -7,9 +7,14 @@
       "contact": "Elérhetőségek"
     },
     "home": {
-      "about": {},
+      "about": {
+        "education": "Tanulmányok"
+      },
       "projects": {},
       "contact": {}
+    },
+    "footer": {
+      "copyright": "Copyright © Minden jog fenntartva"
     }
   }
 }
