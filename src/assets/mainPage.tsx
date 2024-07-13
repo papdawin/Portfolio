@@ -1,4 +1,4 @@
-import React, {Suspense} from 'react';
+import React, {Suspense, useEffect} from 'react';
 import {BrowserRouter as Router, Route, Routes,} from 'react-router-dom';
 // Helper-functions
 // Components
@@ -7,11 +7,17 @@ import Loader from "./skeleton/loader.tsx";
 
 import Home from "./content/Home/home.tsx";
 import {Footer} from "./skeleton/Footer/footer.tsx";
+import {useTranslation} from "react-i18next";
 
 // const Home = React.lazy(() => import('./pages/Home'));
 // const AboutMe = React.lazy(() => import('./pages/About'));
 
 function MainPage() {
+    const {t, i18n} = useTranslation()
+
+    useEffect(() => {
+        console.log("Language Changed, rerendering")
+    }, [i18n, t]);
 
     return (
         <Router>
@@ -22,14 +28,6 @@ function MainPage() {
                             path="/"
                             element={<Home />}
                         />
-                        {/*<Route*/}
-                        {/*    path="/about"*/}
-                        {/*    render={(props) => <AboutMe {...props} data={allData} />}*/}
-                        {/*/>*/}
-                        {/*/!* Redirect *!/*/}
-                        {/*<Route exact path="/">*/}
-                        {/*    <Redirect to="/home" />*/}
-                        {/*</Route>*/}
                     </Routes>
                 </main>
                 <Footer />
