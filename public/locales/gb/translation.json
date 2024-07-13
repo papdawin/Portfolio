@@ -1,0 +1,44 @@
+{
+  "main": {
+    "navbar": {
+      "language": "Language",
+      "about": "About",
+      "projects": "Projects",
+      "contact": "Contact"
+    },
+    "home": {
+      "about": {
+        "title": "Hello! I'm <primaryUnderline>Dávid Pap</primaryUnderline>,",
+        "body": "a Master's student at the University of Pannonia. I chose the Data Science major because I am intrigued by the field of <skyUnderline>machine learning methods</skyUnderline> and because I wanted to deepen my \n<pinkUnderline>software development</pinkUnderline> knowledge, which I acquired previously during my Computer Science BSc. In addition to software development, their deployment and infrastructure are \nalso among my areas of interest, including <indigoUnderline>DevOps, virtualization and networking tasks.</indigoUnderline> <break /> \nMy hobbies also include IoT and electronics, but I'm also keen on history and geography.\n",
+        "education": "Education",
+        "education_body": {
+          "okj": {
+            "institution": "Öveges József Vocational High School",
+            "location": "Balatonfűzfő",
+            "field": "IT System Operator",
+            "bio": "• Networking (Cisco CCNA)<break/>• System administration"
+          },
+          "bsc": {
+            "institution": "University of Pannonia - Faculty of Information Technology",
+            "location": "Veszprém, Hungary",
+            "field": "Computer Science BSc",
+            "bio": "• Mathematics (algebra, logic, calculus, analysis)<break/>• Programming (C/C++, Java, Javascript)<break/>• Parallel programming (OpenMP, MPI)<break/>• Software development (Git, Trello)<break/>• Database management (SQL/T-SQL)<break/>• Operating systems (Bash, Perl)",
+            "diploma": "Webpage defacement attack detection tool"
+          },
+          "msc": {
+            "institution": "University of Pannonia - Faculty of Information Technology",
+            "location": "Veszprém, Hungary",
+            "field": "Data Science MSc",
+            "bio": "• Artificial Intelligence (Python)<break/>• Cloud systems<break/>• Statistics, network analysis (R)<break/>• GPU programming (CUDA)",
+            "diploma": ""
+          }
+        }
+      },
+      "projects": {},
+      "contact": {}
+    },
+    "footer": {
+      "copyright": "Copyright © All rights reserved"
+    }
+  }
+}

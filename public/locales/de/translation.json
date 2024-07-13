@@ -8,9 +8,31 @@
     },
     "home": {
       "about": {
-        "title": "",
-        "body": "",
-        "education": "Ausbildung"
+        "title": "Hallo! Ich bin <primaryUnderline>Dávid Pap</primaryUnderline>,",
+        "body": "Masterstudent an der Pannonische Universität. Ich habe mich fürs Hauptfach Data Science entschieden, weil mich das Gebiet der <skyUnderline>Machine Learning</skyUnderline> fasziniert und weil ich meine Kenntnisse über <pinkUnderline>Software-Entwicklung</pinkUnderline> verbreiten wollte, das ich mir zuvor während meines Bachelor-Studiums in Informatik erwoben hatte. Neben der Software-Entwicklung gehören auch deren Bereitstellung und Infrastruktur zu meinen Interessensgebieten, darunter <indigoUnderline>DevOps, Virtualisierung und Netzwerkaufgaben.</indigoUnderline> <break />Zu meinen Hobbys zählen auch IoT und Elektronik, aber ich interessiere mich auch für Geschichte und Geographie.",
+        "education": "Ausbildung",
+        "education_body": {
+          "okj": {
+            "institution": "Öveges József Fachgymnasium",
+            "location": "Balatonfűzfő",
+            "field": "IT-Systembetreiber",
+            "bio": "• Netzwerkkenntnisse (Cisco CCNA)<break/>• Systemadministrator-kenntnissen"
+          },
+          "bsc": {
+            "institution": "Pannonische Universität - Fakultät für Informatik",
+            "location": "Veszprém, Ungarn",
+            "field": "Computer Science BSc",
+            "bio": "• Mathematik (algebra, logik, kalkulus, analysis)<break/>• Programmierung (C/C++, Java, Javascript)<break/>• Parallele Programmierung (OpenMP, MPI)<break/>• Software-Entwicklung (Git, Trello)<break/>• Database management (SQL/T-SQL)<break/>• Operationssysteme (Bash, Perl)",
+            "diploma": ""
+          },
+          "msc": {
+            "institution": "Pannonische Universität - Fakultät für Informatik",
+            "location": "Veszprém, Ungarn",
+            "field": "Data Science MSc",
+            "bio": "• Künstliche Intelligenz (Python)<break/>• Cloud-Systeme<break/>• Statistik, Netzwerkanalyse (R)<break/>• GPU-Programmierung (CUDA)",
+            "diploma": ""
+          }
+        }
       },
       "projects": {},
       "contact": {}
