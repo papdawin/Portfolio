@@ -59,7 +59,7 @@ function InstituteTemplate({props}){
 export function Education() {
     return <>
         <div className="flex justify-center">
-            <div className="w-">
+            <div className="">
                 <ul className="steps steps-vertical">
                     <li data-content="" className="step">
                         <Msc/>
