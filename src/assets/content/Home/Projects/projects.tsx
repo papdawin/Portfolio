@@ -1,6 +1,5 @@
 import localProjectList from "./projectLoader.ts";
 import {useState} from "react";
-import {useTranslation} from "react-i18next";
 import i18next from "i18next";
 import {IoGitBranch, IoLink} from "react-icons/io5";
 import {Link} from "react-router-dom";
@@ -56,9 +55,9 @@ export function Projects() {
     }
 
     return (
-        <div className="max-w-4xl">
-            <div className="max-w-4xl">
-                {localProjectList.map(project=> renderProject(project))}
+        <div className="flex justify-center">
+            <div className="grid gap-4 grid-cols-3">
+                    {localProjectList.map(project=> renderProject(project))}
             </div>
         </div>);
 }
