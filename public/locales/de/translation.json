@@ -34,11 +34,21 @@
           }
         }
       },
-      "projects": {},
+      "projects": [{
+        "id": 1,
+        "name": "Portfolio website",
+        "description": "",
+        "tech_used": ["React", "i18n", "tailwind"]
+      },{
+        "id": 2,
+        "name": "",
+        "description": "",
+        "tech_used": [""]
+      }],
       "contact": {}
     },
     "footer": {
-      "copyright": "Copyright © Alle Rechte vorbehalten"
+      "copyright": "Copyright<currentyear />© Alle Rechte vorbehalten"
     }
   }
 }

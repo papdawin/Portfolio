@@ -34,11 +34,21 @@
           }
         }
       },
-      "projects": {},
+      "projects": [{
+        "id": 1,
+        "name": "Portfólió oldal",
+        "description": "",
+        "tech_used": ["React", "i18n", "tailwind"]
+        },{
+        "id": 2,
+        "name": "cucc",
+        "description": "",
+        "tech_used": [""]
+      }],
       "contact": {}
     },
     "footer": {
-      "copyright": "Copyright © Minden jog fenntartva"
+      "copyright": "Copyright<currentyear />© Minden jog fenntartva"
     }
   }
 }
