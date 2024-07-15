@@ -37,13 +37,13 @@
       "projects": [{
         "id": 1,
         "name": "Portfólió oldal",
-        "description": "",
+        "description": "Egy oldal amelynek célja, hogy bemutatkozzak és megismerhesse a korábbi projektjeimet",
         "tech_used": ["React", "i18n", "tailwind"]
         },{
         "id": 2,
-        "name": "cucc",
-        "description": "",
-        "tech_used": [""]
+        "name": "Szakdolgozat",
+        "description": "A szakdolgozatomban egy in-line WAF eszközt készítettem, ami a HTTP kérések tartalmát vizsgálja. Egy hagyományos aláírás alapú és egy Gépi tanulást alkalmazó módszert implementáltam.",
+        "tech_used": ["Python", "ML", "IT Biztonság"]
       }],
       "contact": {}
     },

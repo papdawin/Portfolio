@@ -36,14 +36,14 @@
       },
       "projects": [{
         "id": 1,
-        "name": "Portfolio website",
-        "description": "",
+        "name": "Portfolio-seite",
+        "description": "Eine Seite, auf der ich mich vorstellen kann und auf der Sie mehr über meine Projekte erfahren können.",
         "tech_used": ["React", "i18n", "tailwind"]
       },{
         "id": 2,
-        "name": "",
-        "description": "",
-        "tech_used": [""]
+        "name": "Thesis",
+        "description": "In meiner Abschlussarbeit habe ich ein Inline-WAF-Tool erstellt, das den Inhalt von HTTP-Anfragen überprüft. Ich habe eine traditionelle signaturbasierte Methode und eine Methode implementiert, die einen Machine-Learning-Ansatz verwendet.",
+        "tech_used": ["Python", "ML", "IT Sicherheit"]
       }],
       "contact": {}
     },
