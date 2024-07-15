@@ -1,4 +1,5 @@
 import {Trans} from "react-i18next";
+import {educationTypes} from "./educationTypes.tsx";
 
 function Msc() {
     const props = {
@@ -6,7 +7,7 @@ function Msc() {
         duration: "2023 - 2025",
         badges: ['Python', 'BI', 'ML']
     }
-    return <InstituteTemplate props={props} />;
+    return InstituteTemplate(props);
 }
 
 function Bsc() {
@@ -15,7 +16,7 @@ function Bsc() {
         duration: "2020 - 2023",
         badges: ['Programming', 'Git', 'DBMS']
     }
-    return <InstituteTemplate props={props} />;
+    return InstituteTemplate(props);
 }
 
 function Okj() {
@@ -24,32 +25,32 @@ function Okj() {
         duration: "2018 - 2020",
         badges: ['Cisco', 'Active Directory']
     }
-    return <InstituteTemplate props={props} />;
+    return InstituteTemplate(props);
 }
 
-function InstituteTemplate({props}){
+function InstituteTemplate({transPath, duration, badges}:educationTypes){
     return (
         <div className="card bg-base-100 shadow-xl min-w-full">
             <div className="card-body">
                 <h2 className="card-title">
-                    <div className="badge badge-primary whitespace-nowrap">{props.duration}</div>
-                    <Trans i18nKey={props.transPath+'.field'} />
+                    <div className="badge badge-primary whitespace-nowrap">{duration}</div>
+                    <Trans i18nKey={transPath+'.field'} />
                 </h2>
                 <div className="text-left">
                     <small className="text-xs text-primary">
-                        <Trans i18nKey={props.transPath+'.location'} />
+                        <Trans i18nKey={transPath+'.location'} />
                         <span> - </span>
-                        <Trans i18nKey={props.transPath+'.institution'} />
+                        <Trans i18nKey={transPath+'.institution'} />
                     </small>
                     <p>
-                        <Trans i18nKey={props.transPath+'.bio'} components={{
+                        <Trans i18nKey={transPath+'.bio'} components={{
                             break: <br />,
                         }}/>
                     </p>
                 </div>
                 <div className="card-actions justify-end">
-                    {props.badges.map(badge =>
-                        <div className="badge badge-outline">{badge}</div>
+                    {badges.map(badge =>
+                        <div className="badge badge-outline" key={badge}>{badge}</div>
                     )}
                 </div>
             </div>

@@ -1,10 +1,9 @@
 import {FaTerminal} from "react-icons/fa6";
-import {Trans, useTranslation} from "react-i18next";
+import {Trans} from "react-i18next";
 import {IoLogoGithub, IoLogoLinkedin} from "react-icons/io5";
 import {Link} from "react-router-dom";
 
 export function Footer() {
-    const { t, i18n } = useTranslation();
     return <>
         <footer className="footer bg-base-100 items-center p-4">
             <aside className="grid-flow-col items-center">
