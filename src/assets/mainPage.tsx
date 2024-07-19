@@ -1,5 +1,5 @@
 import {Suspense, useEffect} from 'react';
-import {BrowserRouter as Router, Route, Routes,} from 'react-router-dom';
+import {HashRouter, Route, Routes,} from 'react-router-dom';
 import {useTranslation} from "react-i18next";
 // Helper-functions
 // Components
@@ -19,18 +19,16 @@ function MainPage() {
     }, [i18n, t]);
 
     return (
-        <Router basename="/Portfolio">
+        <HashRouter>
             <Navbar />
-                <main>
                     <Routes>
                         <Route
-                            path="/"
+                            path="/*"
                             element={<Home />}
                         />
                     </Routes>
-                </main>
                 <Footer />
-        </Router>
+        </HashRouter>
     );
 }
 
