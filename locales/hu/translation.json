@@ -1,0 +1,54 @@
+{
+  "main": {
+    "navbar": {
+      "language": "Nyelv",
+      "about": "Rólam",
+      "projects": "Projektek",
+      "contact": "Elérhetőségek"
+    },
+    "home": {
+      "about": {
+        "title": "Szia! <primaryUnderline>Pap Dávid</primaryUnderline> vagyok,",
+        "body": "mesterszakos hallgató a Pannon Egyetemen. Azért döntöttem az Adattudomány szak mellett, mert érdekelnek a különböző <skyUnderline>gépi tanulási módszerek</skyUnderline> és mert szerettem volna elmélyíteni a <pinkUnderline>szoftverfejlésztési ismereteimet,</pinkUnderline> amiket a Programtervező Informatikus alapszakon szereztem. A szoftverek fejlesztésén kívül azok üzemeltetése és infrastruktúrája szintén az érdeklődési területeim közé tartozik, beleértve a <indigoUnderline>DevOps, virtualizációs és hálózati feladatokat.</indigoUnderline> <break /> Továbbá hobbijaim közé tartozik az IoT és az elektronika, de a történelem és a földrajz is.",
+        "education": "Tanulmányok",
+        "education_body": {
+          "okj": {
+            "institution": "Öveges József Szakgimnázium",
+            "location": "Balatonfűzfő",
+            "field": "Informatikai rendszerüzemeltető",
+            "bio": "• Hálózati ismeretek (Cisco CCNA)<break/>• Rendszergazdai ismeretek"
+          },
+          "bsc": {
+            "institution": "Pannon Egyetem - Műszaki Informatikai Kar",
+            "location": "Veszprém",
+            "field": "Programtervező informatikus BSc",
+            "bio": "• Matematika (algebra, logika, kalkulus, analízis)<break/>• Programozás (C/C++, Java, Javascript)<break/>• Párhuzamos programozás (OpenMP, MPI)<break/>• Szoftverfejlesztés (Git, Trello)<break/>• Adatbáziskezelés (SQL/T-SQL)<break/>• Operációs rendszerek (Bash, Perl)",
+            "diploma": "Weboldal defacement detektáló eszköz fejlesztése"
+          },
+          "msc": {
+            "institution": "Pannon Egyetem - Műszaki Informatikai Kar",
+            "location": "Veszprém",
+            "field": "Adattudomány MSc",
+            "bio": "• Mesterséges intelligencia (Python)<break/>• Cloud rendszerek<break/>• Statisztika, hálózatelemzés (R)<break/>• GPU programozás (CUDA)<break/>• Számítógépes látás (OpenCV)",
+            "diploma": "Többrétegű kereskedelmi és kollaborációs hálózatok jellemzőinek idősoros vizsgálata, anomáliák, sokkok detektálása"
+          }
+        }
+      },
+      "projects": [{
+        "id": 1,
+        "name": "Portfólió oldal",
+        "description": "Egy oldal amelynek célja, hogy bemutatkozzak és megismerhesse a korábbi projektjeimet",
+        "tech_used": ["React", "i18n", "tailwind"]
+        },{
+        "id": 2,
+        "name": "Szakdolgozat",
+        "description": "A szakdolgozatomban egy in-line WAF eszközt készítettem, ami a HTTP kérések tartalmát vizsgálja. Egy hagyományos aláírás alapú és egy Gépi tanulást alkalmazó módszert implementáltam.",
+        "tech_used": ["Python", "ML", "IT Biztonság"]
+      }],
+      "contact": {}
+    },
+    "footer": {
+      "copyright": "Copyright<currentyear />© Minden jog fenntartva"
+    }
+  }
+}
