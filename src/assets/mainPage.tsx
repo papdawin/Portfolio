@@ -1,5 +1,6 @@
 import {Suspense, useEffect} from 'react';
 import {useTranslation} from "react-i18next";
+import {HashRouter, Route, Routes,} from 'react-router-dom';
 // Helper-functions
 // Components
 import Navbar from "./skeleton/Navbar/navbar.tsx";
@@ -17,11 +18,16 @@ function MainPage() {
         console.log("Language Changed, rerendering")
     }, [i18n, t]);
 
-    return ( <>
+    return ( <HashRouter >
             <Navbar />
-            <Home />
+            <Routes>
+                <Route
+                    path="/*"
+                    element={<Home />}
+                />
+            </Routes>
             <Footer />
-    </>
+        </HashRouter>
     );
 }
 
