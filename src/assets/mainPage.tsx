@@ -1,5 +1,4 @@
 import {Suspense, useEffect} from 'react';
-import {HashRouter, Route, Routes,} from 'react-router-dom';
 import {useTranslation} from "react-i18next";
 // Helper-functions
 // Components
@@ -18,17 +17,11 @@ function MainPage() {
         console.log("Language Changed, rerendering")
     }, [i18n, t]);
 
-    return (
-        <HashRouter>
+    return ( <>
             <Navbar />
-                    <Routes>
-                        <Route
-                            path="/*"
-                            element={<Home />}
-                        />
-                    </Routes>
-                <Footer />
-        </HashRouter>
+            <Home />
+            <Footer />
+    </>
     );
 }
 
