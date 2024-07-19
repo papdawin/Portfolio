@@ -1,13 +1,12 @@
 import {Suspense, useEffect} from 'react';
 import {BrowserRouter as Router, Route, Routes,} from 'react-router-dom';
+import {useTranslation} from "react-i18next";
 // Helper-functions
 // Components
 import Navbar from "./skeleton/Navbar/navbar.tsx";
 import Loader from "./skeleton/loader.tsx";
-
 import Home from "./content/Home/home.tsx";
 import {Footer} from "./skeleton/Footer/footer.tsx";
-import {useTranslation} from "react-i18next";
 
 // const Home = React.lazy(() => import('./pages/Home'));
 // const AboutMe = React.lazy(() => import('./pages/About'));
@@ -20,7 +19,7 @@ function MainPage() {
     }, [i18n, t]);
 
     return (
-        <Router>
+        <Router basename="/Portfolio">
             <Navbar />
                 <main>
                     <Routes>
