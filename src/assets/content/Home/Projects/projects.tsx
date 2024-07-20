@@ -67,7 +67,7 @@ export function Projects() {
 
     return (
         <div className="flex justify-center">
-            <div className="grid gap-4 grid-cols-3">
+            <div className="grid gap-4 grid-flow-row-dense sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 grid-rows-3">
                     {localProjectList.map((project : localProjectType)  => renderProject(project))}
             </div>
         </div>);

@@ -6,13 +6,13 @@ import {Trans} from "react-i18next";
 
 export default function Home() {
     return <>
-        <div className="bg-base-200">
+        <div className="bg-base-200" id="about">
             <About/>
             <div className="divider divider-primary">🎓 <Trans i18nKey={'main.home.about.education'} /></div>
             <Education/>
-            <div className="divider divider-primary">🧑‍💻 <Trans i18nKey={'main.navbar.projects'} /></div>
+            <div className="divider divider-primary" id="projects">🧑‍💻 <Trans i18nKey={'main.navbar.projects'} /></div>
             <Projects/>
-            <div className="divider divider-primary">✉️ <Trans i18nKey={'main.navbar.contact'} /></div>
+            <div className="divider divider-primary" id="contact">✉️ <Trans i18nKey={'main.navbar.contact'} /></div>
             <Contact/>
             </div>
         </>
