@@ -1,9 +1,10 @@
 import localProjectList from "./projectLoader.ts";
-import {useState} from "react";
+import {useEffect, useState} from "react";
 import i18next from "i18next";
 import {IoGitBranch, IoLink} from "react-icons/io5";
 import {Link} from "react-router-dom";
 import {projectTranslationType, localProjectType, propsType} from "./projectTypes.ts";
+import {useTranslation} from "react-i18next";
 
 function Project({id, name, description, tech_used, image, github, link}: propsType) {
     return <div className="card bg-base-100 w-96 shadow-xl" key={id}>
@@ -37,7 +38,7 @@ function Project({id, name, description, tech_used, image, github, link}: propsT
 }
 
 export function Projects() {
-    const [translatedProjectList] = useState<Array<projectTranslationType>>(i18next.t('main.home.projects', { returnObjects: true }))
+    const [translatedProjectList, setTranslatedProjectList] = useState<Array<projectTranslationType>>(i18next.t('main.home.projects', { returnObjects: true }))
 
     function renderProject(project : localProjectType) {
         let props : propsType = {
@@ -64,6 +65,12 @@ export function Projects() {
         })
         return Project(props);
     }
+
+    // reloads projects when language changes
+    const {t, i18n} = useTranslation()
+    useEffect(() => {
+        setTranslatedProjectList(i18n.t('main.home.projects', { returnObjects: true }))
+    }, [i18n, t]);
 
     return (
         <div className="flex justify-center">
