@@ -2,7 +2,7 @@ import {Trans} from "react-i18next";
 
 export function About() {
     return <>
-        <div className="hero bg-base-200 h-96">
+        <div className="hero bg-base-200 min-h-96">
             <div className="hero-content text-center">
                 <div className="max-w-3xl">
                     <h1 className="text-4xl font-bold">

@@ -11,9 +11,9 @@ export default function Navbar() {
             </div>
             <div className="flex-none">
                 <ul className="menu menu-horizontal px-1">
-                    <li><a href={"#about"}><Trans i18nKey={'main.navbar.about'} /></a></li>
-                    <li><a href={"#projects"}><Trans i18nKey={'main.navbar.projects'} /></a></li>
-                    <li><a href={"#contact"}><Trans i18nKey={'main.navbar.contact'} /></a></li>
+                    <li className="hidden md:block"><a href={"#about"}><Trans i18nKey={'main.navbar.about'} /></a></li>
+                    <li className="hidden md:block"><a href={"#projects"}><Trans i18nKey={'main.navbar.projects'} /></a></li>
+                    <li className="hidden md:block"><a href={"#contact"}><Trans i18nKey={'main.navbar.contact'} /></a></li>
                     <LanguageSwitcher/>
                 </ul>
             </div>
