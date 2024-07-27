@@ -44,6 +44,11 @@
         "name": "Thesis",
         "description": "In meiner Abschlussarbeit habe ich ein Inline-WAF-Tool erstellt, das den Inhalt von HTTP-Anfragen überprüft. Ich habe eine traditionelle signaturbasierte Methode und eine Methode implementiert, die einen Machine-Learning-Ansatz verwendet.",
         "tech_used": ["Python", "ML", "IT Sicherheit"]
+      },{
+        "id": 3,
+        "name": "Bildverarbeitung",
+        "description": "Das Projekt wurde für einen Bildverarbeitungskurs vorbereitet. Es ist basiert auf der OpenCV implementierung in der C++ Sprache, und wir hatten die Filtern von mathematischen Formeln und Kerneln coden",
+        "tech_used": ["C++", "OpenCV"]
       }],
       "contact": {}
     },

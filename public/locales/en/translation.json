@@ -44,6 +44,11 @@
         "name": "Thesis",
         "description": "In my thesis, I created an in-line WAF tool that inspects the content of HTTP requests. I implemented a traditional signature-based method and a method that uses a Machine Learning approach.",
         "tech_used": ["Python", "ML", "IT Security"]
+      },{
+        "id": 3,
+        "name": "Image processing",
+        "description": "The project was prepared for an image processing class, where filters had to be implemented in OpenCV (in C++) based on given mathematical formulas and convolution kernels",
+        "tech_used": ["C++", "OpenCV"]
       }],
       "contact": {}
     },

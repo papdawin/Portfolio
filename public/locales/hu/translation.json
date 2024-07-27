@@ -44,6 +44,11 @@
         "name": "Szakdolgozat",
         "description": "A szakdolgozatomban egy in-line WAF eszközt készítettem, ami a HTTP kérések tartalmát vizsgálja. Egy hagyományos aláírás alapú és egy Gépi tanulást alkalmazó módszert implementáltam.",
         "tech_used": ["Python", "ML", "IT Biztonság"]
+      },{
+        "id": 3,
+        "name": "Képfeldolgozás",
+        "description": "A projekt képfeldolgozás órához készült, amin filtereket megadott matematikai képletek és konvolúciós kernelek alapján kellett OpenCV-ben (C++ nyelven) implementálni",
+        "tech_used": ["C++", "OpenCV"]
       }],
       "contact": {}
     },
