@@ -29,8 +29,17 @@
             "institution": "Pannonische Universität - Fakultät für Informatik",
             "location": "Veszprém, Ungarn",
             "field": "Data Science MSc",
-            "bio": "• Künstliche Intelligenz (Python)<break/>• Cloud-Systeme<break/>• Statistik, Netzwerkanalyse (R)<break/>• GPU-Programmierung (CUDA)",
+            "bio": "• Künstliche Intelligenz (Python)<break/>• Cloud-Systeme (GCP)<break/>• Statistik, Netzwerkanalyse (R)<break/>• GPU-Programmierung (CUDA)",
             "diploma": ""
+          }
+        },
+        "experience": "Berufserfahrung",
+        "experience_body": {
+          "sonrisa": {
+            "institution": "Sonrisa",
+            "location": "Budapest",
+            "field": "DevOps engineer",
+            "bio": "• Containerverwaltung (Docker, Kubernetes)<break/>• Infrastrukturverwaltung (AWS, Terraform)<break/>• CI/CD (Gitlab CI)<break/>• Buildwerkzeuge (Maven-Spring, npm)"
           }
         }
       },

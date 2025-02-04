@@ -29,8 +29,17 @@
             "institution": "University of Pannonia - Faculty of Information Technology",
             "location": "Veszprém, Hungary",
             "field": "Data Science MSc",
-            "bio": "• Artificial Intelligence (Python)<break/>• Cloud systems<break/>• Statistics, network analysis (R)<break/>• GPU programming (CUDA)",
+            "bio": "• Artificial Intelligence (Python)<break/>• Cloud systems (GCP)<break/>• Statistics, network analysis (R)<break/>• GPU programming (CUDA)",
             "diploma": ""
+          }
+        },
+        "experience": "Experience",
+        "experience_body": {
+          "sonrisa": {
+            "institution": "Sonrisa",
+            "location": "Budapest",
+            "field": "DevOps engineer",
+            "bio": "• Container management (Docker, Kubernetes)<break/>• Infrastructure management (AWS, Terraform)<break/>• CI/CD (Gitlab CI)<break/>• Build tools (Maven-Spring, npm)"
           }
         }
       },

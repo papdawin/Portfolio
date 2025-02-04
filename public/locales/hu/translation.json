@@ -29,8 +29,17 @@
             "institution": "Pannon Egyetem - Műszaki Informatikai Kar",
             "location": "Veszprém",
             "field": "Adattudomány MSc",
-            "bio": "• Mesterséges intelligencia (Python)<break/>• Cloud rendszerek<break/>• Statisztika, hálózatelemzés (R)<break/>• GPU programozás (CUDA)<break/>• Számítógépes látás (OpenCV)",
+            "bio": "• Mesterséges intelligencia (Python)<break/>• Cloud rendszerek (GCP)<break/>• Statisztika, hálózatelemzés (R)<break/>• GPU programozás (CUDA)<break/>• Számítógépes látás (OpenCV)",
             "diploma": "Többrétegű kereskedelmi és kollaborációs hálózatok jellemzőinek idősoros vizsgálata, anomáliák, sokkok detektálása"
+          }
+        },
+        "experience": "Szakmai tapasztalat",
+        "experience_body": {
+          "sonrisa": {
+            "institution": "Sonrisa",
+            "location": "Budapest",
+            "field": "DevOps engineer",
+            "bio": "• Konténermenedzsment (Docker, Kubernetes)<break/>• Infrastruktúra-menedzsment (AWS, Terraform)<break/>• CI/CD (Gitlab CI)<break/>• Build eszközök (Maven-Spring, npm)"
           }
         }
       },

@@ -1,4 +1,5 @@
 import {About} from "./About/about.tsx";
+import { Experience } from "./About/experience.tsx";
 import {Education} from "./About/education.tsx";
 import {Projects} from "./Projects/projects.tsx";
 import {Contact} from "./Contact/contact.tsx";
@@ -8,7 +9,9 @@ export default function Home() {
     return <>
         <div className="bg-base-200" id="about">
             <About/>
-            <div className="divider divider-primary">🎓 <Trans i18nKey={'main.home.about.education'} /></div>
+            <div className="divider divider-primary" id="experience">🏢 <Trans i18nKey={'main.home.about.experience'} /></div>
+            <Experience/>
+            <div className="divider divider-primary" id="education">🎓 <Trans i18nKey={'main.home.about.education'} /></div>
             <Education/>
             <div className="divider divider-primary" id="projects">🧑‍💻 <Trans i18nKey={'main.navbar.projects'} /></div>
             <Projects/>
