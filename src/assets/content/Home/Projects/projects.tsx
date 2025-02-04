@@ -38,7 +38,9 @@ function Project({id, name, description, tech_used, image, github, link}: propsT
 }
 
 export function Projects() {
-    const [translatedProjectList, setTranslatedProjectList] = useState<Array<projectTranslationType>>(i18next.t('main.home.projects', { returnObjects: true }))
+    const [translatedProjectList, setTranslatedProjectList] = useState<projectTranslationType[]>(
+        () => i18next.t('main.home.projects', { returnObjects: true }) as projectTranslationType[]
+      );
 
     function renderProject(project : localProjectType) {
         let props : propsType = {
@@ -67,9 +69,17 @@ export function Projects() {
     }
 
     // reloads projects when language changes
-    const {t, i18n} = useTranslation()
+    const { t, i18n } = useTranslation();
+
     useEffect(() => {
-        setTranslatedProjectList(i18n.t('main.home.projects', { returnObjects: true }))
+        const projects = i18n.t('main.home.projects', { returnObjects: true });
+
+        if (Array.isArray(projects)) {
+            setTranslatedProjectList(projects as projectTranslationType[]);
+        } else {
+            setTranslatedProjectList([]);
+            console.warn("Expected an array for 'main.home.projects', but got:", projects);
+        }
     }, [i18n, t]);
 
     return (
