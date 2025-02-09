@@ -1,4 +1,4 @@
-FROM node:23-alpine AS builder
+FROM node:23 AS builder
 
 WORKDIR /app
 
@@ -11,14 +11,10 @@ COPY . .
 RUN npm run build
 
 # Production stage
-FROM node:23-alpine
+FROM --platform=linux/arm64 nginx
 
-WORKDIR /app
+COPY --from=builder /app/dist /usr/share/nginx/html
 
-RUN npm i -g serve
+EXPOSE 80
 
-COPY --from=builder /app/dist ./dist
-
-EXPOSE 3000
-
-CMD ["serve", "-s", "dist"]
+CMD ["nginx", "-g", "daemon off;"]
