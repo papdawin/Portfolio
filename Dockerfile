@@ -11,7 +11,7 @@ COPY . .
 RUN npm run build
 
 # Production stage
-FROM --platform=linux/arm64 nginx
+FROM nginx
 
 COPY --from=builder /app/dist /usr/share/nginx/html
 
