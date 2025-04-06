@@ -33,6 +33,14 @@
             "diploma": ""
           }
         },
+        "certificates": "Zertifikate",
+        "certificates_body": {
+          "sysopsadmin": {
+            "name": "AWS Certified SysOps Administrator – Associate",
+            "issuedby": "Ausgestellt von: Amazon Web Services (AWS)",
+            "skills": ["AWS", "Cloud Operations"]
+          }
+        },
         "experience": "Berufserfahrung",
         "experience_body": {
           "sonrisa": {
@@ -50,7 +58,7 @@
         "tech_used": ["React", "i18n", "tailwind"]
       },{
         "id": 2,
-        "name": "Thesis",
+        "name": "Abschlussarbeit (BSc)",
         "description": "In meiner Abschlussarbeit habe ich ein Inline-WAF-Tool erstellt, das den Inhalt von HTTP-Anfragen überprüft. Ich habe eine traditionelle signaturbasierte Methode und eine Methode implementiert, die einen Machine-Learning-Ansatz verwendet.",
         "tech_used": ["Python", "ML", "IT Sicherheit"]
       },{
@@ -58,6 +66,11 @@
         "name": "Bildverarbeitung",
         "description": "Das Projekt wurde für einen Bildverarbeitungskurs vorbereitet. Es ist basiert auf der OpenCV implementierung in der C++ Sprache, und wir hatten die Filtern von mathematischen Formeln und Kerneln coden",
         "tech_used": ["C++", "OpenCV"]
+      },{
+        "id": 4,
+        "name": "Diplomarbeit (MSc)",
+        "description": "",
+        "tech_used": ["NetworkX", "Plotly", "PyTorch Geometric"]
       }],
       "contact": {}
     },

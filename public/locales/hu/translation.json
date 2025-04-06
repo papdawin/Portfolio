@@ -33,6 +33,14 @@
             "diploma": "Többrétegű kereskedelmi és kollaborációs hálózatok jellemzőinek idősoros vizsgálata, anomáliák, sokkok detektálása"
           }
         },
+        "certificates": "Tanúsítványok",
+        "certificates_body": {
+          "sysopsadmin": {
+            "name": "AWS Certified SysOps Administrator – Associate",
+            "issuedby": "Kiállító: Amazon Web Services (AWS)",
+            "skills": ["AWS", "Cloud Operations"]
+          }
+        },
         "experience": "Szakmai tapasztalat",
         "experience_body": {
           "sonrisa": {
@@ -50,7 +58,7 @@
         "tech_used": ["React", "i18n", "tailwind"]
         },{
         "id": 2,
-        "name": "Szakdolgozat",
+        "name": "Szakdolgozat (BSc)",
         "description": "A szakdolgozatomban egy in-line WAF eszközt készítettem, ami a HTTP kérések tartalmát vizsgálja. Egy hagyományos aláírás alapú és egy Gépi tanulást alkalmazó módszert implementáltam.",
         "tech_used": ["Python", "ML", "IT Biztonság"]
       },{
@@ -58,6 +66,11 @@
         "name": "Képfeldolgozás",
         "description": "A projekt képfeldolgozás órához készült, amin filtereket megadott matematikai képletek és konvolúciós kernelek alapján kellett OpenCV-ben (C++ nyelven) implementálni",
         "tech_used": ["C++", "OpenCV"]
+      },{
+        "id": 4,
+        "name": "Diplomadolgoat (MSc)",
+        "description": "",
+        "tech_used": ["NetworkX", "Plotly", "PyTorch Geometric"]
       }],
       "contact": {}
     },

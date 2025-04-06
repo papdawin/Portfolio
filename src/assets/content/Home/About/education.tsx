@@ -60,7 +60,7 @@ function InstituteTemplate({transPath, duration, badges}:educationTypes){
 export function Education() {
     return <>
         <div className="flex justify-center">
-            <div className="">
+            <div className="m-8">
                 <ul className="steps steps-vertical">
                     <li data-content="" className="step">
                         <Msc/>

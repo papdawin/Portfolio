@@ -42,7 +42,7 @@ function WorkplaceTemplate({transPath, duration, badges}:experienceTypes){
 export function Experience() {
     return <>
         <div className="flex justify-center">
-            <div className="">
+            <div className="m-8">
                 <ul className="steps steps-vertical">
                     <li data-content="🏢" className="step step-primary">
                         <Sonrisa/>

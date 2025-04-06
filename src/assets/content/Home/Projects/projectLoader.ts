@@ -16,5 +16,11 @@ export default [
         image: "",
         github: "https://github.com/papdawin/image-processing",
         link: ""
+    },
+    {
+        id: 4,
+        image: "",
+        github: "https://github.com/papdawin/MSc-Thesis",
+        link: ""
     }
 ]
