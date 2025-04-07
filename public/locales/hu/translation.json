@@ -54,7 +54,7 @@
       "projects": [{
         "id": 1,
         "name": "Portfólió oldal",
-        "description": "Egy oldal amelynek célja, hogy bemutatkozzak és megismerhesse a korábbi projektjeimet",
+        "description": "Egy oldal amelynek célja, hogy bemutatkozzak és megismerhesse a korábbi projektjeimet.",
         "tech_used": ["React", "i18n", "tailwind"]
         },{
         "id": 2,
@@ -64,12 +64,12 @@
       },{
         "id": 3,
         "name": "Képfeldolgozás",
-        "description": "A projekt képfeldolgozás órához készült, amin filtereket megadott matematikai képletek és konvolúciós kernelek alapján kellett OpenCV-ben (C++ nyelven) implementálni",
+        "description": "A projekt képfeldolgozás órához készült, amin filtereket megadott matematikai képletek és konvolúciós kernelek alapján kellett OpenCV-ben (C++ nyelven) implementálni.",
         "tech_used": ["C++", "OpenCV"]
       },{
         "id": 4,
         "name": "Diplomadolgoat (MSc)",
-        "description": "",
+        "description": "A dolgozatomban többrétegő kereskedelmi hálózatokat elemeztem többek között centralitási mutatók, nem felügyelt gépi tanulási módszerek és mélytanuló rendszerek (Autoencoder, Gráfneurális hálózatok) segítségével.",
         "tech_used": ["NetworkX", "Plotly", "PyTorch Geometric"]
       }],
       "contact": {}

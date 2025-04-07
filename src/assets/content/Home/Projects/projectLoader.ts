@@ -9,7 +9,7 @@ export default [
         id: 2,
         image: "",
         github: "https://github.com/papdawin/BSc-Thesis",
-        link: ""
+        link: "https://github.com/papdawin/BSc-Thesis/blob/21fe16ef0450a0e7d3f6424ea0348c60a261effb/2223_2_Pap_D%C3%A1vid_RJPEKF_Szakdolgozat_VP.pdf"
     },
     {
         id: 3,

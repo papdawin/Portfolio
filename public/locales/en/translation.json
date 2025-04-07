@@ -69,7 +69,7 @@
       },{
         "id": 4,
         "name": "Master's Thesis (MSc)",
-        "description": "",
+        "description": "In my thesis, I analyzed multilayer commercial networks using, among other things, centrality metrics, unsupervised machine learning methods, and deep learning systems (Autoencoders, Graph Neural Networks).",
         "tech_used": ["NetworkX", "Plotly", "PyTorch Geometric"]
       }],
       "contact": {}

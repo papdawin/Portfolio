@@ -69,7 +69,7 @@
       },{
         "id": 4,
         "name": "Diplomarbeit (MSc)",
-        "description": "",
+        "description": "In meiner Diplomarbeit habe ich mehrschichtige Handelsnetzwerke mithilfe von Zentralitätsindikatoren, unüberwachten maschinellen Lernmethoden und Deep-Learning-Systemen (Autoencoder, Graph Neural Networks) analysiert.",
         "tech_used": ["NetworkX", "Plotly", "PyTorch Geometric"]
       }],
       "contact": {}
