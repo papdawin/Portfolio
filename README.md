@@ -8,6 +8,6 @@ using daisyUI styled components here and there.
 
 ## Deployment
 
-The site is deployed using Google Cloud Platform in a container,
-utilising a custom domain registered under the Hungarian top level domain.
-The application is containerised using the npm docker base image.
+The site is deployed on my local home server in a kubernetes cluster ran by k3s. The containet image is publicly available 
+on [dockerhub](https://hub.docker.com/r/pdwn/portfolio) currently as arm64 and amd64 images (my raspberry requires 
+arm64). The custom domain is registered under the Hungarian top level domain.
