@@ -62,7 +62,7 @@ export function Education() {
         <div className="flex justify-center">
             <div className="m-8">
                 <ul className="steps steps-vertical">
-                    <li data-content="" className="step">
+                    <li data-content="🎓" className="step step-primary">
                         <Msc/>
                     </li>
                     <li data-content="🎓" className="step step-primary">
