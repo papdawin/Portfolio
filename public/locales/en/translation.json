@@ -9,7 +9,7 @@
     "home": {
       "about": {
         "title": "Hello! I'm <primaryUnderline>Dávid Pap</primaryUnderline>,",
-        "body": "a Master's student at the University of Pannonia. I chose the Data Science major because I am intrigued by the field of <skyUnderline>machine learning methods</skyUnderline> and because I wanted to deepen my \n<pinkUnderline>software development</pinkUnderline> knowledge, which I acquired previously during my Computer Science BSc. In addition to software development, their deployment and infrastructure are \nalso among my areas of interest, including <indigoUnderline>DevOps, virtualization and networking tasks.</indigoUnderline> <break /> \nMy hobbies also include IoT and electronics, but I'm also keen on history and geography.\n",
+        "body": "<skyUnderline>DevOps/Cloud Engineer</skyUnderline> in Sonrisa's team, where I work on the development, operation and automation of cloud-based infrastructures. I completed my studies at the University of Pannon in <pinkUnderline>Data Science</pinkUnderline> which was my master's degree, and before that, I studied <pinkUnderline>Computer Science</pinkUnderline> as my bachelor's degree, I also hold an AWS SysOps Administrator certificate. In addition to software development, my areas of interest include their operation and infrastructure, including <indigoUnderline>containerization, orchestration, system design and monitoring tasks</indigoUnderline>. <break /> I regularly follow new technologies and consider continuous learning important. In my free time, I enjoy learning about them, IoT projects, electronics, and I am also interested in history and geography.",
         "education": "Education",
         "education_body": {
           "okj": {
