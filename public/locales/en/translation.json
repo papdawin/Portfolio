@@ -9,7 +9,7 @@
     "home": {
       "about": {
         "title": "Hello! I'm <primaryUnderline>Dávid Pap</primaryUnderline>,",
-        "body": "<skyUnderline>DevOps/Cloud Engineer</skyUnderline> in Sonrisa's team, where I work on the development, operation and automation of cloud-based infrastructures. I completed my studies at the University of Pannon in <pinkUnderline>Data Science</pinkUnderline> which was my master's degree, and before that, I studied <pinkUnderline>Computer Science</pinkUnderline> as my bachelor's degree, I also hold an AWS SysOps Administrator certificate. In addition to software development, my areas of interest include their operation and infrastructure, including <indigoUnderline>containerization, orchestration, system design and monitoring tasks</indigoUnderline>. <break /> I regularly follow new technologies and consider continuous learning important. In my free time, I enjoy learning about them, IoT projects, electronics, and I am also interested in history and geography.",
+        "body": "<skyUnderline>DevOps/Cloud Engineer</skyUnderline> in Sonrisa's team, where I work on the development, operation and automation of cloud-based infrastructures. I completed my studies at the University of Pannonia in <pinkUnderline>Data Science</pinkUnderline> which was my master's degree, and before that, I studied <pinkUnderline>Computer Science</pinkUnderline> as my bachelor's degree, I also hold an AWS SysOps Administrator certificate. In addition to software development, my areas of interest include their operation and infrastructure, including <indigoUnderline>containerization, orchestration, system design and monitoring tasks</indigoUnderline>. <break /> I regularly follow new technologies and consider continuous learning important. In my free time, I enjoy learning about them, IoT projects, electronics, and I am also interested in history and geography.",
         "education": "Education",
         "education_body": {
           "okj": {
@@ -61,6 +61,7 @@
         "name": "Bachelor's Thesis",
         "description": "In my thesis, I created an in-line WAF tool that inspects the content of HTTP requests. I implemented a traditional signature-based method and a method that uses a Machine Learning approach.",
         "tech_used": ["Python", "ML", "IT Security"]
+        
       },{
         "id": 3,
         "name": "Image processing",
@@ -71,6 +72,16 @@
         "name": "Master's Thesis (MSc)",
         "description": "In my thesis, I analyzed multilayer commercial networks using, among other things, centrality metrics, unsupervised machine learning methods, and deep learning systems (Autoencoders, Graph Neural Networks).",
         "tech_used": ["NetworkX", "Plotly", "PyTorch Geometric"]
+      },{
+        "id": 5,
+        "name": "Observability project",
+        "description": "This project is an observability stack that demonstrates how to collect and visualize metrics, logs, and traces from an application. The stack runs Prometheus, Loki, Tempo, and Grafana.",
+        "tech_used": ["Grafana", "Prometheus", "Loki", "Tempo"]
+      },{
+        "id": 6,
+        "name": "AI assitant",
+        "description": "This project is a Hungarian-language AI voice assistant for customer service, combining Speech-to-Text, Retrieval-Augmented Generation, Large Language Models (LLM), and Text-to-Speech. It runs as a set of containerized microservices.",
+        "tech_used": ["Docker", "vLLM", "TTS/STT Models"]
       }],
       "contact": {}
     },

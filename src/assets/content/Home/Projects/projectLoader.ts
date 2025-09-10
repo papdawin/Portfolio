@@ -21,6 +21,18 @@ export default [
         id: 4,
         image: "",
         github: "https://github.com/papdawin/MSc-Thesis",
+        link: "https://github.com/papdawin/MSc-Thesis/blob/master/2425_2_PapD%C3%A1vid_RJPEKF_Diplomadolgozat_VP.pdf"
+    },
+    {
+        id: 5,
+        image: "",
+        github: "https://github.com/papdawin/Observability-playground",
+        link: ""
+    },
+    {
+        id: 6,
+        image: "",
+        github: "https://github.com/papdawin/customer-service-assistant",
         link: ""
     }
 ]

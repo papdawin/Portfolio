@@ -71,6 +71,16 @@
         "name": "Diplomarbeit (MSc)",
         "description": "In meiner Diplomarbeit habe ich mehrschichtige Handelsnetzwerke mithilfe von Zentralitätsindikatoren, unüberwachten maschinellen Lernmethoden und Deep-Learning-Systemen (Autoencoder, Graph Neural Networks) analysiert.",
         "tech_used": ["NetworkX", "Plotly", "PyTorch Geometric"]
+      },{
+        "id": 5,
+        "name": "Observability projekt",
+        "description": "Dieses Projekt ist ein Observability-Stack, der zeigt, wie man Metriken, Logs und Traces aus einer Anwendung sammelt und visualisiert. Der Stack verwendet Prometheus, Loki, Tempo und Grafana.",
+        "tech_used": ["Grafana", "Prometheus", "Loki", "Tempo"]
+      },{
+        "id": 6,
+        "name": "KI Assistent",
+        "description": "Dieses Projekt ist ein ungarischsprachiger KI-Sprachassistent für den Kundenservice, der Speech-to-Text (STT), Retrieval-Augmented Generation (RAG), Large Language Models (LLM) und Text-to-Speech (TTS) kombiniert.",
+        "tech_used": ["Docker", "vLLM", "TTS/STT Models"]
       }],
       "contact": {}
     },

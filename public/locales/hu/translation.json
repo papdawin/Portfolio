@@ -68,9 +68,19 @@
         "tech_used": ["C++", "OpenCV"]
       },{
         "id": 4,
-        "name": "Diplomadolgoat (MSc)",
+        "name": "Diplomadolgozat (MSc)",
         "description": "A dolgozatomban többrétegő kereskedelmi hálózatokat elemeztem többek között centralitási mutatók, nem felügyelt gépi tanulási módszerek és mélytanuló rendszerek (Autoencoder, Gráfneurális hálózatok) segítségével.",
         "tech_used": ["NetworkX", "Plotly", "PyTorch Geometric"]
+      },{
+        "id": 5,
+        "name": "Observability projekt",
+        "description": "A projekt egy observability stack, amely bemutatja, hogyan lehet metrikákat, logokat és trace-eket gyűjteni és megjeleníteni egy alkalmazásból. A stack a Prometheus, Loki, Tempo és Grafana komponenseket futtatja.",
+        "tech_used": ["Grafana", "Prometheus", "Loki", "Tempo"]
+      },{
+        "id": 6,
+        "name": "AI asszisztens",
+        "description": "Ez a projekt egy magyar nyelvű, ügyfélszolgálati AI-alapú hangasszisztens, amely Speech-to-Text, a Retrieval-Augmented Generation, a nagy nyelvi modellek (LLM) és a Text-to-Speech technológiákat kombinálja. A rendszer konténerizált mikroszolgáltatásokból áll.",
+        "tech_used": ["Docker", "vLLM", "TTS/STT Models"]
       }],
       "contact": {}
     },
