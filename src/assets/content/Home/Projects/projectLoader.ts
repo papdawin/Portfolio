@@ -34,5 +34,11 @@ export default [
         image: "",
         github: "https://github.com/papdawin/customer-service-assistant",
         link: ""
+    },
+    {
+        id: 7,
+        image: "",
+        github: "https://github.com/papdawin/Nixos",
+        link: ""
     }
 ]

@@ -82,6 +82,11 @@
         "name": "AI assitant",
         "description": "This project is a Hungarian-language AI voice assistant for customer service, combining Speech-to-Text, Retrieval-Augmented Generation, Large Language Models (LLM), and Text-to-Speech. It runs as a set of containerized microservices.",
         "tech_used": ["Docker", "vLLM", "TTS/STT Models"]
+      },{
+        "id": 7,
+        "name": "NixOS configuration",
+        "description": "My personal NixOS configuration used across my workstations. The flake integrates home-manager and Hyprland.",
+        "tech_used": ["NixOS", "Hyprland"]
       }],
       "contact": {}
     },

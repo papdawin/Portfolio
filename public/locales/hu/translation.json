@@ -81,6 +81,11 @@
         "name": "AI asszisztens",
         "description": "Ez a projekt egy magyar nyelvű, ügyfélszolgálati AI-alapú hangasszisztens, amely Speech-to-Text, a Retrieval-Augmented Generation, a nagy nyelvi modellek (LLM) és a Text-to-Speech technológiákat kombinálja. A rendszer konténerizált mikroszolgáltatásokból áll.",
         "tech_used": ["Docker", "vLLM", "TTS/STT Models"]
+      },{
+        "id": 7,
+        "name": "NixOS konfiguráció",
+        "description": "A saját NixOS konfigurációm, amelyet minden munkaállomásomon használok. Egy flake konfiguráció ami tartalmazza a home-manager és a Hyprland komponenseket is.",
+        "tech_used": ["NixOS", "Hyprland"]
       }],
       "contact": {}
     },

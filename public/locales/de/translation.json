@@ -81,6 +81,11 @@
         "name": "KI Assistent",
         "description": "Dieses Projekt ist ein ungarischsprachiger KI-Sprachassistent für den Kundenservice, der Speech-to-Text (STT), Retrieval-Augmented Generation (RAG), Large Language Models (LLM) und Text-to-Speech (TTS) kombiniert.",
         "tech_used": ["Docker", "vLLM", "TTS/STT Models"]
+      },{
+        "id": 7,
+        "name": "NixOS-Konfiguration",
+        "description": "Meine persönliche NixOS-Konfiguration, die ich auf allen meinen Workstations verwende. Die Flake integriert home-manager und Hyprland.",
+        "tech_used": ["NixOS", "Hyprland"]
       }],
       "contact": {}
     },
