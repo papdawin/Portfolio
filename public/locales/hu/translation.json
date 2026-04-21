@@ -86,6 +86,11 @@
         "name": "NixOS konfiguráció",
         "description": "A saját NixOS konfigurációm, amelyet minden munkaállomásomon használok. Egy flake konfiguráció ami tartalmazza a home-manager és a Hyprland komponenseket is.",
         "tech_used": ["NixOS", "Hyprland"]
+      },{
+        "id": 8,
+        "name": "Home Server",
+        "description": "Egy repository, amely a teljes homelab média- és automatizációs stackemet kezeli Proxmoxon, Terraform és Terragrunt eszközökkel az infrastruktúrához, valamint Nix-szel a konténeren belüli szolgáltatáskonfigurációhoz.",
+        "tech_used": ["Proxmox", "Terraform", "Terragrunt", "Nix"]
       }],
       "contact": {}
     },

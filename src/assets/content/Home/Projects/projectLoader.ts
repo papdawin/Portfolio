@@ -40,5 +40,11 @@ export default [
         image: "",
         github: "https://github.com/papdawin/Nixos",
         link: ""
+    },
+    {
+        id: 8,
+        image: "",
+        github: "https://github.com/papdawin/HomeServer",
+        link: ""
     }
 ]

@@ -69,7 +69,7 @@
         "tech_used": ["C++", "OpenCV"]
       },{
         "id": 4,
-        "name": "Master's Thesis (MSc)",
+        "name": "Master's Thesis",
         "description": "In my thesis, I analyzed multilayer commercial networks using, among other things, centrality metrics, unsupervised machine learning methods, and deep learning systems (Autoencoders, Graph Neural Networks).",
         "tech_used": ["NetworkX", "Plotly", "PyTorch Geometric"]
       },{
@@ -87,6 +87,11 @@
         "name": "NixOS configuration",
         "description": "My personal NixOS configuration used across my workstations. The flake integrates home-manager and Hyprland.",
         "tech_used": ["NixOS", "Hyprland"]
+      },{
+        "id": 8,
+        "name": "Home Server",
+        "description": "A repository that manages my full homelab media and automation stack on Proxmox using Terraform and Terragrunt for infrastructure and Nix for in-container service configuration.",
+        "tech_used": ["Proxmox", "Terraform", "Terragrunt", "Nix"]
       }],
       "contact": {}
     },

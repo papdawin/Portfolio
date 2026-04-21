@@ -86,6 +86,11 @@
         "name": "NixOS-Konfiguration",
         "description": "Meine persönliche NixOS-Konfiguration, die ich auf allen meinen Workstations verwende. Die Flake integriert home-manager und Hyprland.",
         "tech_used": ["NixOS", "Hyprland"]
+      },{
+        "id": 8,
+        "name": "Home Server",
+        "description": "Ein Repo, das meinen vollständigen Homelab Medien und Automatisierungs-Stack auf Proxmox verwaltet, mit Terraform und Terragrunt für die Infrastruktur und Nix für die Service-Konfiguration innerhalb der Container.",
+        "tech_used": ["Proxmox", "Terraform", "Terragrunt", "Nix"]
       }],
       "contact": {}
     },
