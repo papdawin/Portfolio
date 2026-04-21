@@ -43,6 +43,12 @@
         },
         "experience": "Szakmai tapasztalat",
         "experience_body": {
+          "diligent": {
+            "institution": "Diligent (Kontraktor)",
+            "location": "Budapest",
+            "field": "Szoftverfejlesztő",
+            "bio": "• Automatizálás, fejlesztés (Python)<break/>• Infrastructure as Code (Terraform)<break/>• Fejlesztés a Diligent One platformon<break/>• Csapatmunka eszközök (Jira, Confluence)"
+          },
           "sonrisa": {
             "institution": "Sonrisa",
             "location": "Budapest",

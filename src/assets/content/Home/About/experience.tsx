@@ -10,6 +10,15 @@ function Sonrisa() {
     return WorkplaceTemplate(props);
 }
 
+function Diligent() {
+    const props = {
+        transPath: "main.home.about.experience_body.diligent",
+        duration: "2025 - ",
+        badges: ['Python', 'Terraform', 'Jira', 'Confluence']
+    }
+    return WorkplaceTemplate(props);
+}
+
 function WorkplaceTemplate({transPath, duration, badges}:experienceTypes){
     return (
         <div className="card bg-base-100 shadow-xl min-w-full">
@@ -43,7 +52,10 @@ export function Experience() {
     return <>
         <div className="flex justify-center">
             <div className="m-8">
-                <ul className="steps steps-vertical">
+                <ul className="steps steps-vertical gap-4">
+                    <li data-content="🏢" className="step step-primary">
+                        <Diligent/>
+                    </li>
                     <li data-content="🏢" className="step step-primary">
                         <Sonrisa/>
                     </li>

@@ -43,6 +43,12 @@
         },
         "experience": "Berufserfahrung",
         "experience_body": {
+          "diligent": {
+            "institution": "Diligent (Auftragnehmer)",
+            "location": "Budapest",
+            "field": "Softwareentwickler",
+            "bio": "• Automatisierung (Python)<break/>• Infrastructure as Code (Terraform)<break/>• Entwicklung auf der Diligent One Plattform<break/>• Teamzusammenarbeit (Jira, Confluence)"
+          },
           "sonrisa": {
             "institution": "Sonrisa",
             "location": "Budapest",
