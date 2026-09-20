@@ -3,12 +3,10 @@ import {Link} from "react-router-dom";
 
 export function Contact() {
     return <>
-        <div className="flex justify-center h-20">
-            <div className="flex justify-between w-80 space">
-                <Link to='https://www.linkedin.com/in/papdawin'><IoLogoLinkedin size={60} color='oklch'/></Link>
-                <Link to='https://github.com/papdawin'><IoLogoGithub size={60} color='oklch'/></Link>
-                <Link to='mailto:papdavid98@gmail.com'><IoMail size={60} color='oklch'/></Link>
-            </div>
+        <div className="flex gap-3">
+            <Link className="grid h-12 w-12 place-items-center border border-base-content/10 text-primary transition-colors hover:border-primary" to='https://www.linkedin.com/in/papdawin' aria-label="LinkedIn"><IoLogoLinkedin size={24}/></Link>
+            <Link className="grid h-12 w-12 place-items-center border border-base-content/10 text-primary transition-colors hover:border-primary" to='https://github.com/papdawin' aria-label="GitHub"><IoLogoGithub size={24}/></Link>
+            <Link className="grid h-12 w-12 place-items-center border border-base-content/10 text-primary transition-colors hover:border-primary" to='mailto:papdavid98@gmail.com' aria-label="Email"><IoMail size={24}/></Link>
         </div>
     </>;
 }

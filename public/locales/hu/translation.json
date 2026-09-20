@@ -9,20 +9,20 @@
     "home": {
       "about": {
         "title": "Szia! <primaryUnderline>Pap Dávid</primaryUnderline> vagyok,",
-        "body": "<skyUnderline>DevOps/Cloud mérnök</skyUnderline> a Sonrisa csapatában, ahol felhőalapú infrastruktúrák kialakításával, üzemeltetésével és automatizálásával foglalkozom. Tanulmányaimat a Pannon Egyetem <pinkUnderline>Adattudomány</pinkUnderline> mesterszakán, előtte pedig a <pinkUnderline>Programtervező informatikus</pinkUnderline> alapszakán végeztem, illetve rendelkezek egy AWS SysOps Administrator tanúsítvánnyal is. A szoftverek fejlesztésén kívül azok üzemeltetése és infrastruktúrája szintén az érdeklődési területeim közé tartozik, beleértve a <indigoUnderline>konténerizációs, orkesztrációs, rendszertervezési és monitrozási feladatokat</indigoUnderline>. <break /> Rendszeresen követem az új technológiákat, és fontosnak tartom a folyamatos tanulást. Szabadidőmben szívesen foglalkozom ezek megismerésével, IoT-projektekkel, elektronikával, valamint érdekel a történelem és a földrajz is.",
+        "body": "<skyUnderline>DevOps/Cloud mérnök</skyUnderline> a Sonrisa csapatában, ahol felhőalapú infrastruktúrák kialakításával, üzemeltetésével és automatizálásával foglalkozom. Tanulmányaimat a Pannon Egyetem <pinkUnderline>Adattudomány</pinkUnderline> mesterszakán, előtte pedig a <pinkUnderline>Programtervező informatikus</pinkUnderline> alapszakán végeztem, illetve rendelkezek egy AWS SysOps Administrator tanúsítvánnyal is. A szoftverek fejlesztésén kívül azok üzemeltetése és infrastruktúrája szintén az érdeklődési területeim közé tartozik, beleértve a <indigoUnderline>konténerizációs, orkesztrációs, rendszertervezési és monitorozási feladatokat</indigoUnderline>. <break /> Rendszeresen követem az új technológiákat, és fontosnak tartom a folyamatos tanulást. Szabadidőmben szívesen foglalkozom ezek megismerésével, IoT-projektekkel, elektronikával, valamint érdekel a történelem és a földrajz is.",
         "education": "Tanulmányok",
         "education_body": {
           "okj": {
             "institution": "Öveges József Szakgimnázium",
             "location": "Balatonfűzfő",
             "field": "Informatikai rendszerüzemeltető",
-            "bio": "• Hálózati ismeretek (Cisco CCNA)<break/>• Rendszergazdai ismeretek"
+            "bio": "• Hálózati ismeretek (Cisco CCNA)<break/>• Rendszergazdai ismeretek (LDAP, Active Directory)"
           },
           "bsc": {
             "institution": "Pannon Egyetem - Műszaki Informatikai Kar",
             "location": "Veszprém",
             "field": "Programtervező informatikus BSc",
-            "bio": "• Matematika (algebra, logika, kalkulus, analízis)<break/>• Programozás (C/C++, Java, Javascript)<break/>• Párhuzamos programozás (OpenMP, MPI)<break/>• Szoftverfejlesztés (Git, Trello)<break/>• Adatbáziskezelés (SQL/T-SQL)<break/>• Operációs rendszerek (Bash, Perl)",
+            "bio": "• Matematika (algebra, logika, kalkulus, analízis)<break/>• Programozás (C/C++, Java, JavaScript)<break/>• Párhuzamos programozás (OpenMP, MPI)<break/>• Szoftverfejlesztés (Git, Trello)<break/>• Adatbáziskezelés (SQL/T-SQL)<break/>• Operációs rendszerek (Bash, Perl)",
             "diploma": "Weboldal defacement detektáló eszköz fejlesztése"
           },
           "msc": {
@@ -75,11 +75,11 @@
       },{
         "id": 4,
         "name": "Diplomadolgozat (MSc)",
-        "description": "A dolgozatomban többrétegő kereskedelmi hálózatokat elemeztem többek között centralitási mutatók, nem felügyelt gépi tanulási módszerek és mélytanuló rendszerek (Autoencoder, Gráfneurális hálózatok) segítségével.",
+        "description": "A dolgozatomban többrétegű kereskedelmi hálózatokat elemeztem többek között centralitási mutatók, nem felügyelt gépi tanulási módszerek és mélytanuló rendszerek (Autoencoder, Gráfneurális hálózatok) segítségével.",
         "tech_used": ["NetworkX", "Plotly", "PyTorch Geometric"]
       },{
         "id": 5,
-        "name": "Observability projekt",
+        "name": "Observability-projekt",
         "description": "A projekt egy observability stack, amely bemutatja, hogyan lehet metrikákat, logokat és trace-eket gyűjteni és megjeleníteni egy alkalmazásból. A stack a Prometheus, Loki, Tempo és Grafana komponenseket futtatja.",
         "tech_used": ["Grafana", "Prometheus", "Loki", "Tempo"]
       },{

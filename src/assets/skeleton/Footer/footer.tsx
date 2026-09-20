@@ -5,7 +5,7 @@ import {Link} from "react-router-dom";
 
 export function Footer() {
     return <>
-        <footer className="footer bg-base-100 items-center p-4">
+        <footer className="footer items-center border-t border-base-content/10 bg-base-100 px-4 py-6 sm:px-6">
             <aside className="grid-flow-col items-center">
                 <FaTerminal className="flex-none"/>
                 <strong className="text-xl mr-5">pdwn</strong>
@@ -14,8 +14,8 @@ export function Footer() {
                            />
             </aside>
             <nav className="grid-flow-col gap-4 md:place-self-center md:justify-self-end">
-                <Link to='https://www.linkedin.com/in/papdawin'><IoLogoLinkedin /></Link>
-                <Link to='https://github.com/papdawin'><IoLogoGithub /></Link>
+                <Link to='https://www.linkedin.com/in/papdawin' aria-label="LinkedIn"><IoLogoLinkedin /></Link>
+                <Link to='https://github.com/papdawin' aria-label="GitHub"><IoLogoGithub /></Link>
             </nav>
         </footer>
     </>

@@ -16,13 +16,13 @@
             "institution": "Öveges József Fachgymnasium",
             "location": "Balatonfűzfő",
             "field": "IT-Systembetreiber",
-            "bio": "• Netzwerkkenntnisse (Cisco CCNA)<break/>• Systemadministrator-kenntnissen"
+            "bio": "• Netzwerkkenntnisse (Cisco CCNA)<break/>• Kenntnisse in der Systemadministration (LDAP, Active Directory)"
           },
           "bsc": {
             "institution": "Pannonische Universität - Fakultät für Informatik",
             "location": "Veszprém, Ungarn",
             "field": "Computer Science BSc",
-            "bio": "• Mathematik (algebra, logik, kalkulus, analysis)<break/>• Programmierung (C/C++, Java, Javascript)<break/>• Parallele Programmierung (OpenMP, MPI)<break/>• Software-Entwicklung (Git, Trello)<break/>• Database management (SQL/T-SQL)<break/>• Operationssysteme (Bash, Perl)",
+            "bio": "• Mathematik (Algebra, Logik, Kalkül, Analysis)<break/>• Programmierung (C/C++, Java, JavaScript)<break/>• Parallele Programmierung (OpenMP, MPI)<break/>• Software-Entwicklung (Git, Trello)<break/>• Datenbankverwaltung (SQL/T-SQL)<break/>• Betriebssysteme (Bash, Perl)",
             "diploma": ""
           },
           "msc": {
@@ -59,7 +59,7 @@
       },
       "projects": [{
         "id": 1,
-        "name": "Portfolio-seite",
+        "name": "Portfolio-Seite",
         "description": "Eine Seite, auf der ich mich vorstellen kann und auf der Sie mehr über meine Projekte erfahren können.",
         "tech_used": ["React", "i18n", "tailwind"]
       },{
@@ -70,7 +70,7 @@
       },{
         "id": 3,
         "name": "Bildverarbeitung",
-        "description": "Das Projekt wurde für einen Bildverarbeitungskurs vorbereitet. Es ist basiert auf der OpenCV implementierung in der C++ Sprache, und wir hatten die Filtern von mathematischen Formeln und Kerneln coden",
+        "description": "Das Projekt wurde für einen Bildverarbeitungskurs vorbereitet. Es basiert auf der OpenCV-Implementierung in C++, und wir mussten Filter auf Grundlage mathematischer Formeln und Kernel programmieren.",
         "tech_used": ["C++", "OpenCV"]
       },{
         "id": 4,
@@ -79,12 +79,12 @@
         "tech_used": ["NetworkX", "Plotly", "PyTorch Geometric"]
       },{
         "id": 5,
-        "name": "Observability projekt",
+        "name": "Observability-Projekt",
         "description": "Dieses Projekt ist ein Observability-Stack, der zeigt, wie man Metriken, Logs und Traces aus einer Anwendung sammelt und visualisiert. Der Stack verwendet Prometheus, Loki, Tempo und Grafana.",
         "tech_used": ["Grafana", "Prometheus", "Loki", "Tempo"]
       },{
         "id": 6,
-        "name": "KI Assistent",
+        "name": "KI-Assistent",
         "description": "Dieses Projekt ist ein ungarischsprachiger KI-Sprachassistent für den Kundenservice, der Speech-to-Text (STT), Retrieval-Augmented Generation (RAG), Large Language Models (LLM) und Text-to-Speech (TTS) kombiniert.",
         "tech_used": ["Docker", "vLLM", "TTS/STT Models"]
       },{

@@ -16,13 +16,13 @@
             "institution": "Öveges József Vocational High School",
             "location": "Balatonfűzfő",
             "field": "IT System Operator",
-            "bio": "• Networking (Cisco CCNA)<break/>• System administration"
+            "bio": "• Networking (Cisco CCNA)<break/>• System administration (LDAP, Active Directory)"
           },
           "bsc": {
             "institution": "University of Pannonia - Faculty of Information Technology",
             "location": "Veszprém, Hungary",
             "field": "Computer Science BSc",
-            "bio": "• Mathematics (algebra, logic, calculus, analysis)<break/>• Programming (C/C++, Java, Javascript)<break/>• Parallel programming (OpenMP, MPI)<break/>• Software development (Git, Trello)<break/>• Database management (SQL/T-SQL)<break/>• Operating systems (Bash, Perl)",
+            "bio": "• Mathematics (algebra, logic, calculus, analysis)<break/>• Programming (C/C++, Java, JavaScript)<break/>• Parallel programming (OpenMP, MPI)<break/>• Software development (Git, Trello)<break/>• Database management (SQL/T-SQL)<break/>• Operating systems (Bash, Perl)",
             "diploma": "Webpage defacement attack detection tool"
           },
           "msc": {
@@ -85,7 +85,7 @@
         "tech_used": ["Grafana", "Prometheus", "Loki", "Tempo"]
       },{
         "id": 6,
-        "name": "AI assitant",
+        "name": "AI assistant",
         "description": "This project is a Hungarian-language AI voice assistant for customer service, combining Speech-to-Text, Retrieval-Augmented Generation, Large Language Models (LLM), and Text-to-Speech. It runs as a set of containerized microservices.",
         "tech_used": ["Docker", "vLLM", "TTS/STT Models"]
       },{

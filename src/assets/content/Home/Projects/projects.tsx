@@ -7,34 +7,24 @@ import {projectTranslationType, localProjectType, propsType} from "./projectType
 import {useTranslation} from "react-i18next";
 
 function Project({id, name, description, tech_used, image, github, link}: propsType) {
-    return <div className="card bg-base-100 w-96 shadow-xl" key={id}>
-        <figure className="max-h-40">
-            {image ?
-                <img src={image} alt={name+'photo'}/> : <></>
-            }
+    return <article className="surface flex h-full flex-col transition-colors hover:border-primary/50" key={id}>
+        <figure className="max-h-40 overflow-hidden">
+            {image ? <img src={image} alt={name+' photo'}/> : <></>}
         </figure>
-        <div className="card-body">
-            <h2 className="card-title">
-                <div className="badge badge-secondary">
-                    <Link to={github}>
-                        <IoGitBranch/>
-                    </Link>
+        <div className="flex flex-1 flex-col gap-4 p-6">
+            <div className="flex items-start justify-between gap-4">
+                <h3 className="text-xl font-semibold tracking-tight">{name}</h3>
+                <div className="flex gap-2 text-primary">
+                    <Link to={github} aria-label={`${name} GitHub`}><IoGitBranch/></Link>
+                    {link && <Link to={link} aria-label={`${name} link`}><IoLink/></Link>}
                 </div>
-                <div className="badge badge-secondary">
-                    <Link to={link}>
-                        <IoLink/>
-                    </Link>
-                </div>
-                {name}
-            </h2>
-            <p>{description}</p>
-            <div className="card-actions justify-end">
-                {tech_used.map((tech : string) => {
-                    return <div className="badge badge-outline" key={tech}>{tech}</div>;
-                })}
+            </div>
+            <p className="text-sm leading-6 text-base-content/70">{description}</p>
+            <div className="mt-auto flex flex-wrap gap-2 pt-2">
+                {tech_used.map((tech : string) => <div className="badge badge-outline" key={tech}>{tech}</div>)}
             </div>
         </div>
-    </div>
+    </article>
 }
 
 export function Projects() {
@@ -83,9 +73,7 @@ export function Projects() {
     }, [i18n, t]);
 
     return (
-        <div className="flex justify-center">
-            <div className="grid gap-4 grid-flow-row-dense sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 grid-rows-3">
-                    {localProjectList.map((project : localProjectType)  => renderProject(project))}
-            </div>
+        <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+            {localProjectList.map((project : localProjectType)  => renderProject(project))}
         </div>);
 }

@@ -12,20 +12,20 @@ export default function languageSwitcher() {
     return <>
         <li>
             <details>
-                <summary>
+                <summary className="whitespace-nowrap">
                     <IoLanguage />
                     <Trans i18nKey='main.navbar.language' />
                 </summary>
                 <ul className="bg-base-100 rounded-t-none p-2">
                     {locales.map((country:navbarTypes) => (
                         <li key={country.country_code}>
-                            <div onClick={() => {
+                            <button className="flex w-full items-center gap-2" onClick={() => {
                                 i18n.changeLanguage(country.short_code).then(() => console.log("langChanged"))
                             }}>
                                 <Flag code={country.short_code} fallback={<small>{country.short_code}</small>}
                                       height={13} width={13}/>
                                 <p>{country.country_code}</p>
-                            </div>
+                            </button>
                         </li>
                     ))}
                 </ul>

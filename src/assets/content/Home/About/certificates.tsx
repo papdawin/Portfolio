@@ -12,17 +12,17 @@ function SysOpsAdmin() {
 
 function CertificateTemplate({transPath, duration, badges}:certificatesTypes){
     return (
-        <div className="hero-content flex-col lg:flex-row min-w-lg">
-            <img src="sysops_cert.png" className="max-w-sm rounded-lg shadow-sm" width={200}/>
+        <div className="flex flex-col gap-6 p-5 sm:p-8 lg:flex-row lg:items-center">
+            <img src="sysops_cert.png" alt="AWS SysOps Administrator certificate" className="max-w-sm rounded-lg" width={200}/>
             <div>
-                <h2 className="text-2xl font-bold min-w-lg">
+                <h3 className="text-2xl font-bold tracking-tight">
                     <Trans i18nKey={transPath+'.name'} />
-                </h2>
-                <p className="py-6">
+                </h3>
+                <div className="py-6">
                     <div className="badge badge-primary whitespace-nowrap">{duration}</div> <span />
                     <Trans i18nKey={transPath+'.issuedby'} />
-                </p>
-                <div className="card-actions justify-end mt-10">
+                </div>
+                <div className="mt-6 flex flex-wrap justify-end gap-2">
                     {badges.map(badge =>
                         <div className="badge badge-outline" key={badge}>{badge}</div>
                     )}
@@ -34,7 +34,7 @@ function CertificateTemplate({transPath, duration, badges}:certificatesTypes){
 export function Certificates() {
     return <>
         <div className="flex justify-center">
-            <div className="hero bg-base-100 shadow-xl max-w-4xl m-8 rounded-xl">
+            <div className="surface max-w-4xl">
                 <SysOpsAdmin/>
             </div>
         </div>

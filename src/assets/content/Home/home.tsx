@@ -8,18 +8,28 @@ import {Trans} from "react-i18next";
 
 export default function Home() {
     return <>
-        <div className="bg-base-200" id="about">
+        <main className="bg-base-200" id="about">
             <About/>
-            <div className="divider divider-primary" id="experience">🏢 <Trans i18nKey={'main.home.about.experience'} /></div>
-            <Experience/>
-            <div className="divider divider-primary" id="education">🎓 <Trans i18nKey={'main.home.about.education'} /></div>
-            <Education/>
-            <div className="divider divider-primary" id="certificates">📜 <Trans i18nKey={'main.home.about.certificates'} /></div>
-            <Certificates/>
-            <div className="divider divider-primary" id="projects">🧑‍💻 <Trans i18nKey={'main.navbar.projects'} /></div>
-            <Projects/>
-            <div className="divider divider-primary" id="contact">✉️ <Trans i18nKey={'main.navbar.contact'} /></div>
-            <Contact/>
-            </div>
+            <section className="section-shell" id="experience">
+                <h2 className="section-title">🏢 <Trans i18nKey={'main.home.about.experience'} /></h2>
+                <Experience/>
+            </section>
+            <section className="section-shell" id="education">
+                <h2 className="section-title">🎓 <Trans i18nKey={'main.home.about.education'} /></h2>
+                <Education/>
+            </section>
+            <section className="section-shell" id="certificates">
+                <h2 className="section-title">📜 <Trans i18nKey={'main.home.about.certificates'} /></h2>
+                <Certificates/>
+            </section>
+            <section className="section-shell" id="projects">
+                <h2 className="section-title">🧑‍💻 <Trans i18nKey={'main.navbar.projects'} /></h2>
+                <Projects/>
+            </section>
+            <section className="section-shell pb-24" id="contact">
+                <h2 className="section-title">✉️ <Trans i18nKey={'main.navbar.contact'} /></h2>
+                <Contact/>
+            </section>
+        </main>
         </>
 }
